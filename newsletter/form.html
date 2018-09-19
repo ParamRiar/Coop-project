@@ -1,0 +1,75 @@
+<html>
+<head>
+</head>
+<style>
+.container {
+    padding: 16px;
+    background-color: white;
+}
+body{
+
+ border: 1px solid black;
+ width:50%;
+ height:100%
+;}
+
+</style>
+<body>
+<form>
+<div class="container">
+  
+<div>
+
+  <label for="First Name"><b>First Name</b> </label> 
+    <input type="text" placeholder="Enter First Name"  required>
+
+	  <label for="Last Name"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" required>
+	</div>
+	<div>
+ <label for="Email "><b>Email </b></label>
+    <input type="email" placeholder="Email" required>
+	<label for="Phone"><b>Phone</b></label>
+    <input type="text"  required>
+
+	</div>
+	<div>
+   
+ <label for=" land ">Do you own land? </label>
+<select id="ownland" name="ownland">
+<option value="-">-</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+</select>
+  
+<label for=" Owner/Builder">Will you be an Owner/Builder? </label>
+<select id="Owner/Builder" name="Owner/Builder">
+<option value="-">-</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+</select>
+  </div>
+
+<div>
+
+  
+
+
+
+<label for="building"><b>Where are you building?</b></label>
+    <input type="text"  required>
+
+<label><b>When do you plan on starting to build?</b></label>
+    <input type="date"  required>
+</div>
+<div>
+<label for="Description ">Description of your needs and questions</label>
+  <textarea id="Description " name="Description"></textarea>
+
+  <button type="submit" >Submit</button>
+</div>
+</div>
+</form>
+
+</body>
+</html>
